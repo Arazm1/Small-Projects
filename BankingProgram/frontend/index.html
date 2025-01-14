@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Banking Program</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link rel="icon" type="image/x-icon" href="css/img/nasamarslogo.png"> -->
+        <link href="styles.css" rel="stylesheet">
+        <script defer src="script.js"></script>
+    </head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a id="home-button">Home</a></li>
+                <!--
+                <li><a id="home-button">Home</a></li>
+                <li><a id="home-button">Home</a></li>
+                <li>—— Chat ——</li>
+                <li>Write</li>
+                -->
+            </ul>
+        </nav>
+    </header>
+
+<main>
+    <div>
+        <h1>Banking Program</h1>
+    <div id="main-screen" style="display: flex;">
+        <h2>Welcome to the ATM</h2>
+        <div id="balance">Balance</div>
+        <div id="deposit">Deposit</div>
+        <div id="withdraw">Withdraw</div>
+    </div>
+    <div>
+        <div id="balance-container" style="display: none;">
+            <div><a class="back-button"> < </a></div>
+            <h2>Balance</h2>
+            <div id="current-balance"></div>
+        </div>
+    </div>
+    <div>
+        <div id="deposit-container" style="display: none;">
+            <div><a class="back-button"> < </a></div>
+            <h2>Deposit</h2>
+            <div>Select the amount you wish to deposit</div>
+            <input type="number" id="deposit-amount" placeholder="Enter amount">
+            <button id="deposit-submit" type="button">Send</button>
+            <div id="amount-deposited"></div>
+        </div>
+    </div>
+    <div>
+        <div id="withdraw-container" style="display: none;">
+            <div><a class="back-button"> < </a></div>
+            <h2>Withdraw</h2>
+            <div>Select the amount you wish to withdraw</div>
+            <input type="number" id="withdraw-amount" placeholder="Enter amount">
+            <button id="withdraw-submit" type="button">Send</button>
+            <div id="amount-withdrawn"></div>
+        </div>
+    </div>
+    </div>
+
+</main>
+
+    
+</body>
+</html>
