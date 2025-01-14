@@ -17,8 +17,8 @@ This is a small project of mine where you can search TV shows by their name. The
     - CSS
     - JavaScript
 
-    --> API
-    - [TVmaze API](https://www.tvmaze.com/api): Provides the data about TV shows.
+--> API
+(https://www.tvmaze.com/api): Provides the data about TV shows.
 
 --> 🖥️ How It Works
 1. You enter the name of a TV show in the search bar.
